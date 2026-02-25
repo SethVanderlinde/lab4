@@ -69,14 +69,12 @@ body {
   width: 295px;
   height: 50px;
   background-color: rgb(44, 43, 43);
-  align-items: center;
   border: 2px solid rgb(234, 6, 6);
 }
 
-.inside-1 {
+.footer {
   width: 295px;
   height: 50px;
   background-color: rgb(44, 43, 43);
-  align-items: flex-end;
   border: 2px solid rgb(234, 6, 6);
 }
