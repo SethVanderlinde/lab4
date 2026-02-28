@@ -62,7 +62,6 @@ body {
   width: 700px;
   padding: 12px;
   gap: 12px;
-  flex-wrap: wrap;
   flex-direction: column;
   background-color: rgb(6, 195, 247);
 }
@@ -70,11 +69,11 @@ body {
 .box-top {
   display: flex;
   gap: 12px;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .inside {
-  flex: 4;
+  width: 162px;
   height: 50px;
   background-color: rgb(44, 43, 43);
   border: 2px solid rgb(234, 6, 6);
@@ -87,9 +86,8 @@ body {
 
 .footer {
   order: 5;
-    gap: 12px;
-    flex-grow: 1;
-    height: 50px;
-    border: 2px solid white;
-    background-color: rgb(132, 132, 132);
+  flex-grow: 1;
+  height: 50px;
+  background-color: rgb(44, 43, 43);
+  border: 2px solid rgb(234, 6, 6);
 }
