@@ -59,22 +59,37 @@ body {
 
 .box-4 {
   display:flex;
+  width: 700px;
+  padding: 12px;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-direction: column;
   background-color: rgb(6, 195, 247);
-  gap: 10px;
-  width:600px;
-  padding: 10px;
+}
+
+.box-top {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
 }
 
 .inside {
-  width: 295px;
+  flex: 4;
   height: 50px;
   background-color: rgb(44, 43, 43);
   border: 2px solid rgb(234, 6, 6);
 }
 
+.bot-box{
+    display: flex;
+    gap: 12px;
+}
+
 .footer {
-  width: 295px;
-  height: 50px;
-  background-color: rgb(44, 43, 43);
-  border: 2px solid rgb(234, 6, 6);
+  order: 5;
+    gap: 12px;
+    flex-grow: 1;
+    height: 50px;
+    border: 2px solid white;
+    background-color: rgb(132, 132, 132);
 }
